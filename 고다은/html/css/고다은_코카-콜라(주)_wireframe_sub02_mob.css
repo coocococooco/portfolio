@@ -1,0 +1,209 @@
+/* 헤더 */
+
+div.hdrWrap{
+    height: 40px;
+}
+div.hdrWrap>div.header {
+    width: 90%;
+    line-height: 40px;
+    height: 40px;
+}
+div.hdrWrap>div.header>h1 {
+    float: left;
+    font-size: 25px;
+    padding-top: 3px;
+    height: 40px;
+    width: 100px;
+}
+div.hdrWrap>div.header>h1>img{
+}
+div.hdrWrap>div.header>ul.nav>li:nth-child(4){
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 ;
+    text-align: center;
+    line-height: 40px;
+}
+/* 메인 */
+
+div.mainWrap {}
+div.mainWrap>div.main{
+    width: 90%;
+    padding: 120px 0 60px ;
+    margin: 0 auto;
+}
+
+/* 탭 */
+
+div.tabWrap>div.tab {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+div.tabWrap>div.tab>ul>li {
+    width: calc(100% / 3);
+}
+
+div.tabWrap>div.tab>h2{
+    font-size: 26px;
+}
+div.tabWrap>div.tab>ul>li {
+    width: calc(100% / 3);
+    font-size: 14px;
+}
+
+/* 컨텐츠 */
+div.cntWrap{
+    margin-top: 80px;
+}
+div.cntWrap>div.content>div.header>p {
+    text-align: center;
+    display: none;
+}
+
+div.cntWrap>div.content>div.section>ul.artMenu>li {
+    width: calc(100% / 2 - 20px);
+}
+
+div.cntWrap>div.content>div.section>ul.artMenu>li:nth-child(2)~li {
+    margin-top: 40px;
+}
+
+/* 푸터 */
+
+div.ftrWrap{
+    margin-top: 80px;
+}
+div.ftrWrap>div.footer{
+    width: 90%;
+    margin: 0 auto;
+    height: 160px;
+}
+div.ftrWrap>div.footer>h1{
+    width: calc(100% / 4 * 2);
+    margin: 0 auto;
+    font-size: 26px;
+}
+div.ftrWrap>div.footer>div.texts{
+    display: none;
+}
+
+/* 라이트 박스 */
+
+input#sub:checked+div.lightBox {
+    width: 50vw;
+    top: 0;
+    right: 0;
+    height: 100vh;
+}
+div.lightBox>div.subMenu {
+    width: 80vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    color: #000;
+    padding-top: 130px;
+}
+div.lightBox {
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    background-color: #000;
+    top: 0;
+    right: 0;
+    color: #fff;
+    width: 0vw;
+    overflow: hidden;
+    z-index: 10;
+    transition: width 0.5s;
+}
+div.lightBox>div.subMenu>ul {
+    float: none;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: left;
+}
+div.lightBox>div.subMenu>ul>li:nth-child(1) {
+    font-size: 22px;
+    font-weight: 550;
+    padding: 10px 0;
+    border-bottom: 3px solid #9f0028;
+    width: 140px;
+}
+div.lightBox>div.subMenu>ul>li:nth-child(1)~li {
+    line-height: 40px;
+}
+div.lightBox>div.subMenu>ul>li:nth-child(2) {
+    margin-top: 0px;
+}
+div.lightBox>div.btn {
+    font-size: 30px;
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    color: #000;
+}
+div.lightBox>div.subMenu>ul>li:nth-child(1) {
+    font-size: 20px;
+    font-weight: 550;
+    padding: 10px 0;
+    border-bottom: 3px solid #9f0028;
+    width: 130px;
+}
+div.lightBox>div.subMenu>ul>li {
+    font-size: 15px;
+}
+
+/* 창 */
+
+div.brandBox>div.texts {
+    width: 100vw;
+    height: 66vh;
+}
+div.brandBox>div.texts>h1 {
+    width: calc(100% / 12 * 4);
+    height: 80px;
+    background-image: url(./image/sub02/sub02_cnt01_pic.01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+div.brandBox>div.texts>h3 {
+    font-size: 25px;
+    margin-top: 0px;
+}
+div.brandBox>div.texts>p{
+    display: none;
+}
+div.brandBox>div.texts>ul.imgGroup {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+div.brandBox>div.texts>div.btn {
+    font-size: 40px;
+    position: absolute;
+    top: 4px;
+    right: 13px;
+    color: #000;
+}
+div.brandBox>div.texts>ul.imgGroup>li.image{
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+    height: 230px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 60px;
+}
